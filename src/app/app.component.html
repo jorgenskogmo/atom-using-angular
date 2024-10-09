@@ -1,7 +1,14 @@
-<div>alo {{title}} </div>
+<h2>atom-using-angular</h2>
+
+<div style="text-align: end;
+  position: absolute;
+  right: 1rem;
+  top: 2rem;">
+  <atom-switch-darkmode default="light"></atom-switch-darkmode>
+</div>
 
 <atom-button label="Left Icon" variant="outline">
-    <div slot="left"><atom-icon name="mail"></atom-icon></div>
+  <div slot="left"><atom-icon name="mail"></atom-icon></div>
 </atom-button>
 
 <atom-range id="btn0" min="1" max="60" value="20" bind="num"></atom-range>
